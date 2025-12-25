@@ -1,103 +1,88 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "maple",
-  "name": "Mint Starter Kit",
+  "theme": "mint",
+  "name": "Golden Pocket",
   "colors": {
-    "primary": "#E6C200",
-    "light": "#FFD43B",
-    "dark": "#E6C200"
+    "primary": "#D4AF37",
+    "light": "#F4D03F",
+    "dark": "#996F0A"
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
+    "groups": [
       {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
+        "group": "👋 Welcome to Golden Pocket",
+        "pages": [
+          "index",
+          "quickstart",
+          "welcome/what-is-golden-pocket",
+          "welcome/what-is-trading-journal",
+          "welcome/who-its-for"
         ]
       },
       {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
+        "group": "🚀 Getting Started",
+        "pages": [
+          "getting-started/overview",
+          "getting-started/creating-account",
+          "getting-started/connecting-accounts"
+        ]
+      },
+      {
+        "group": "🏦 Supported Exchanges",
+        "pages": [
+          "exchanges/supported-venues",
+          "exchanges/jupiter-perpetuals",
+          "exchanges/backpack-exchange",
+          "exchanges/data-limitations",
+          "exchanges/future-integrations"
+        ]
+      },
+      {
+        "group": "📊 Analytics & Features",
+        "pages": [
+          "analytics/dashboard-overview",
+          "analytics/performance-analytics",
+          "analytics/advanced-analytics",
+          "analytics/risk-drawdown",
+          "analytics/fees-costs",
+          "analytics/time-behavior",
+          "analytics/trade-history",
+          "analytics/notes-attachments"
+        ]
+      },
+      {
+        "group": "🎯 Best Practices",
+        "pages": [
+          "best-practices/journaling-habits"
+        ]
+      },
+      {
+        "group": "🔐 Security & Trust",
+        "pages": [
+          "security/read-only-design",
+          "security/data-handling",
+          "security/wallet-integrations",
+          "security/professional-use"
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/FINAL_no-background_300x300.png",
+    "dark": "/dark-logo-gp-no-background_300x300.png"
   },
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Feedback",
+        "href": "https://tally.so/r/mYKMYv"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Try Golden Pocket",
+      "href": "https://goldenpocket.app"
     }
   },
   "contextual": {
@@ -114,9 +99,8 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/goldenpocketxyz",
+      "website": "https://goldenpocket.xyz"
     }
   }
 }

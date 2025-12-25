@@ -1,16 +1,14 @@
-# Mintlify Starter Kit
+# Golden Pocket Documentation
 
-Use the starter kit to get your docs deployed and ready to customize.
+Professional trading journal documentation for perpetual futures traders.
 
-Click the green **Use this template** button at the top of this repo to copy the Mintlify starter kit. The starter kit contains examples with
+This documentation covers:
 
-- Guide pages
-- Navigation
-- Customizations
-- API reference pages
-- Use of popular components
-
-**[Follow the full quickstart guide](https://starter.mintlify.com/quickstart)**
+- Getting started with Golden Pocket
+- Connecting trading accounts
+- Understanding analytics and features
+- Best practices for effective journaling
+- Security and data handling
 
 ## Development
 

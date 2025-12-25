@@ -1,0 +1,19 @@
+/* Global CSS for Golden Pocket Documentation */
+
+/* Direct targeting of logo images by filename */
+img[src*="FINAL_no-background"],
+img[src*="dark-logo-gp"] {
+  max-height: 40px !important;
+  height: 40px !important;
+  width: auto !important;
+  min-height: 40px !important;
+}
+
+/* Universal logo targeting */
+img {
+  max-height: 40px !important;
+  height: auto !important;
+  width: auto !important;
+}
+
+/* Remove navbar height adjustments to prevent layout issues */

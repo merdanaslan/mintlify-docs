@@ -1,0 +1,58 @@
+/* Custom CSS for Golden Pocket Documentation */
+
+/* More aggressive logo targeting with higher specificity */
+img[src*="FINAL_no-background"],
+img[src*="dark-logo-gp"] {
+  max-height: 50px !important;
+  height: 50px !important;
+  width: auto !important;
+  min-height: 50px !important;
+}
+
+/* Logo sizing - targeting common Mintlify logo selectors */
+.navbar-brand img,
+.logo img,
+[data-testid="logo"] img,
+.mintlify-logo img,
+nav img,
+header img {
+  max-height: 50px !important;
+  height: 50px !important;
+  width: auto !important;
+  min-height: 50px !important;
+}
+
+/* Universal img targeting in navigation areas */
+nav * img,
+header * img,
+[class*="nav"] img,
+[class*="header"] img,
+[class*="logo"] img,
+[id*="logo"] img {
+  max-height: 50px !important;
+  height: 50px !important;
+  width: auto !important;
+  min-height: 50px !important;
+}
+
+/* Fix logo container to use flexbox for proper alignment */
+#navbar a[href="/"] {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+}
+
+/* Add Golden Pocket brand name directly next to logo */
+#navbar a[href="/"]::after {
+  content: "Golden Pocket" !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  color: #333 !important;
+  white-space: nowrap !important;
+  line-height: 1 !important;
+}
+
+/* Dark mode styling for brand name */
+html.dark #navbar a[href="/"]::after {
+  color: #fff !important;
+}
