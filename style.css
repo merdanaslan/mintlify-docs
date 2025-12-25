@@ -45,7 +45,7 @@ header * img,
 /* Add Golden Pocket brand name directly next to logo */
 #navbar a[href="/"]::after {
   content: "Golden Pocket" !important;
-  font-size: 16px !important;
+  font-size: 18px !important;
   font-weight: 600 !important;
   color: #333 !important;
   white-space: nowrap !important;
