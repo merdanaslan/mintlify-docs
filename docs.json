@@ -3,15 +3,15 @@
   "theme": "mint",
   "name": "Golden Pocket",
   "colors": {
-    "primary": "#D4AF37",
+    "primary": "#DAA520",
     "light": "#F4D03F",
-    "dark": "#996F0A"
+    "dark": "#E6B800"
   },
   "favicon": "/FINAL_no-background.png",
   "navigation": {
     "groups": [
       {
-        "group": "👋 Welcome to Golden Pocket",
+        "group": "WELCOME TO GOLDEN POCKET",
         "pages": [
           "index",
           "quickstart",
@@ -21,7 +21,7 @@
         ]
       },
       {
-        "group": "🚀 Getting Started",
+        "group": "GETTING STARTED",
         "pages": [
           "getting-started/overview",
           "getting-started/creating-account",
@@ -29,7 +29,7 @@
         ]
       },
       {
-        "group": "🏦 Supported Exchanges",
+        "group": "SUPPORTED EXCHANGES",
         "pages": [
           "exchanges/supported-venues",
           "exchanges/jupiter-perpetuals",
@@ -39,7 +39,7 @@
         ]
       },
       {
-        "group": "📊 Analytics & Features",
+        "group": "ANALYTICS & FEATURES",
         "pages": [
           "analytics/dashboard-overview",
           "analytics/performance-analytics",
@@ -52,13 +52,13 @@
         ]
       },
       {
-        "group": "🎯 Best Practices",
+        "group": "BEST PRACTICES",
         "pages": [
           "best-practices/journaling-habits"
         ]
       },
       {
-        "group": "🔐 Security & Trust",
+        "group": "SECURITY & TRUST",
         "pages": [
           "security/read-only-design",
           "security/data-handling",
