@@ -35,14 +35,11 @@
         ]
       },
       {
-        "group": "ANALYTICS & FEATURES",
+        "group": "FEATURES",
         "pages": [
           "analytics/dashboard-overview",
           "analytics/performance-analytics",
           "analytics/advanced-analytics",
-          "analytics/risk-drawdown",
-          "analytics/fees-costs",
-          "analytics/time-behavior",
           "analytics/trade-history",
           "analytics/notes-attachments"
         ]
