@@ -65,20 +65,6 @@ description: "Deep insights into trading behavior and performance patterns"
 - Detect overtrading
 - Identify optimal session length
 
-## Time Period Performance
-
-**What it is:** Daily, weekly, and monthly performance breakdowns.
-
-**What it's for:** Identifies consistency and temporal performance patterns.
-
-### How to use
-- Review PnL and trade count per time bucket
-- Spot profitable and unprofitable periods
-
-### Key Insights
-- Detect seasonality and streak behavior
-- Understand performance concentration
-
 ## Trade Duration Analysis
 
 **What it is:** Distribution of holding periods across time ranges.
@@ -107,13 +93,15 @@ description: "Deep insights into trading behavior and performance patterns"
 
 ## Stop Loss Analysis
 
-**What it is:** Analysis of stop-loss usage effectiveness.
+**What it is:** Analysis of how stop loss placement affects your returns. Breakeven and Tiny Profit ranges show ONLY stop loss fills to see how your stops perform. Other Exits shows all exit types for full performance context.
 
-**What it's for:** Evaluate risk management discipline.
+**What it's for:** Understanding how your stop loss placement impacts returns and PnL outcomes.
 
 ### Key Insights
-- Determine if stop losses improve performance
-- Optimize placement and usage
+- Determine how stop loss placement affects returns
+- Analyze breakeven and tiny profit stop loss fills
+- Compare stop loss performance vs other exit types
+- Optimize stop placement strategy
 
 ## Fee Composition Breakdown
 
@@ -150,15 +138,31 @@ description: "Deep insights into trading behavior and performance patterns"
 ## Exchange-Specific Features
 
 ### Borrow / Lend Interest (Backpack Only)
-**What it is:** Interest earned and paid from leveraged trading.
+**What it is:** Interest earned from lending and interest paid for borrowing (not funding rates).
 
 **Key Insights:**
-- Factor interest into net profitability
-- Optimize leverage duration and sizing
+- Factor lending income and borrowing costs into net profitability
+- Optimize lending opportunities and borrowing duration
 
-### Unrealized Interest Impact (Backpack Only)
-**What it is:** Interest effects on open positions.
+### Unrealized PnL Interest (Backpack Only)
+**What it is:** Interest payments on unrealized profit/loss for open positions.
 
 **Key Insights:**
-- Understand ongoing holding costs
-- Improve exit timing decisions
+- Understand ongoing interest costs on unrealized PnL
+- Factor unrealized interest into position management decisions
+
+## Symbol & Date Filters
+
+Interactive filters enable focused analysis of specific assets, strategies, or market conditions by narrowing data by trading pair and time range.
+
+### How to use
+- **Symbol Filter:** Select individual symbols or "All Symbols"
+- **Date Range:** Choose custom start and end dates
+
+### Data Availability
+- **Jupiter:** May 1st, 2025 onward (protocol data availability)
+- **Backpack:** Full historical range based on your activity
+
+### Key Insights
+- Compare performance across assets
+- Identify which markets and periods suit your strategy best
