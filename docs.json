@@ -13,8 +13,6 @@
       {
         "group": "WELCOME TO GOLDEN POCKET",
         "pages": [
-          "index",
-          "quickstart",
           "welcome/what-is-golden-pocket",
           "welcome/what-is-trading-journal",
           "welcome/who-its-for"
@@ -32,8 +30,6 @@
         "group": "SUPPORTED EXCHANGES",
         "pages": [
           "exchanges/supported-venues",
-          "exchanges/jupiter-perpetuals",
-          "exchanges/backpack-exchange",
           "exchanges/data-limitations",
           "exchanges/future-integrations"
         ]
