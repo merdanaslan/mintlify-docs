@@ -11,8 +11,9 @@
   "navigation": {
     "groups": [
       {
-        "group": "WELCOME TO GOLDEN POCKET",
+        "group": "ABOUT GOLDEN POCKET",
         "pages": [
+          "index",
           "welcome/what-is-golden-pocket",
           "welcome/what-is-trading-journal",
           "welcome/who-its-for"
