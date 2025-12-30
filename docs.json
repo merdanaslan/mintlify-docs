@@ -96,5 +96,17 @@
       "x": "https://x.com/goldenpocketxyz",
       "website": "https://goldenpocket.xyz"
     }
+  },
+  "seo": {
+    "indexing": "all",
+    "metatags": {
+      "google-site-verification": "4pF5c7hBfoXyG622sSYtN-yVvrzCZ0UH5klAqmSTvQ0",
+      "keywords": "trading journal, perpetual futures, trading analytics, performance tracking, crypto trading, derivatives trading, golden pocket",
+      "og:type": "website",
+      "og:site_name": "Golden Pocket Documentation",
+      "og:image": "https://goldenpocket.xyz/og-image.jpg",
+      "twitter:card": "summary_large_image",
+      "twitter:site": "@goldenpocketxyz"
+    }
   }
 }
