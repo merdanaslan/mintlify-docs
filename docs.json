@@ -56,7 +56,6 @@
         "pages": [
           "security/read-only-design",
           "security/data-handling",
-          "security/wallet-integrations",
           "security/professional-use"
         ]
       }
